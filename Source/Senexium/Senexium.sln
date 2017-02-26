@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Senexium", "Senexium.csproj", "{1DC8807C-EEE5-427C-866A-1E0656F8C2EF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1DC8807C-EEE5-427C-866A-1E0656F8C2EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DC8807C-EEE5-427C-866A-1E0656F8C2EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DC8807C-EEE5-427C-866A-1E0656F8C2EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DC8807C-EEE5-427C-866A-1E0656F8C2EF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Senexium.csproj
+	EndGlobalSection
+EndGlobal

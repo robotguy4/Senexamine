@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <HediffDef Name="AccelAgingBase" Abstract="True">
+        <hediffClass>Senexamine.Hediff_AccelAge</hediffClass>
+        <defaultLabelColor>(0.3,0.65,0.55)</defaultLabelColor>
+        <stages>
+            <li>
+                <hungerRateFactor>2</hungerRateFactor>
+            </li>
+        </stages>
+    </HediffDef>
+
+    <!-- x2 version !-->
+    <HediffDef ParentName="AccelAgingBase">
+        <defName>Accelerated_Aging2x</defName>
+        <label>Accelerated aging</label>
+        <comps>
+            <li Class="HediffCompProperties_Disappears">
+                <disappearsAfterTicks>
+                    <min>30000</min>
+                    <max>30000</max>
+                </disappearsAfterTicks>
+            </li>
+        </comps>
+    </HediffDef>
+    
+    <!-- x10 version !-->
+    <HediffDef ParentName="AccelAgingBase">
+        <defName>Accelerated_Aging10x</defName>
+        <label>Accelerated aging x10</label>
+        <initialSeverity>10</initialSeverity>
+        <comps>
+            <li Class="HediffCompProperties_Disappears">
+                <disappearsAfterTicks>
+                    <min>30000</min>
+                    <max>30000</max>
+                </disappearsAfterTicks>
+            </li>
+        </comps>
+    </HediffDef>
+    <!-- x100 version !-->
+    <HediffDef ParentName="AccelAgingBase">
+        <defName>Accelerated_Aging100x</defName>
+        <label>Accelerated aging x100</label>
+        <initialSeverity>100</initialSeverity>
+        <comps>
+            <li Class="HediffCompProperties_Disappears">
+                <disappearsAfterTicks>
+                    <min>30000</min>
+                    <max>30000</max>
+                </disappearsAfterTicks>
+            </li>
+        </comps>
+    </HediffDef>
+    <!-- x365 version !-->
+    <HediffDef ParentName="AccelAgingBase">
+        <defName>Accelerated_Aging365x</defName>
+        <label>Accelerated aging x365</label>
+        <initialSeverity>365</initialSeverity>
+        <comps>
+            <li Class="HediffCompProperties_Disappears">
+                <disappearsAfterTicks>
+                    <min>30000</min>
+                    <max>30000</max>
+                </disappearsAfterTicks>
+            </li>
+        </comps>
+    </HediffDef>
+    <!-- 60 version !-->
+    <HediffDef ParentName="AccelAgingBase">
+        <defName>Accelerated_Aging60x</defName>
+        <label>Accelerated aging x60</label>
+        <initialSeverity>60</initialSeverity>
+        <comps>
+            <li Class="HediffCompProperties_Disappears">
+                <disappearsAfterTicks>
+                    <min>420000</min>
+                    <max>480000</max>
+                </disappearsAfterTicks>
+            </li>
+        </comps>
+    </HediffDef>
+</Defs>
